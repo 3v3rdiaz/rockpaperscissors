@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodbye</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noPage">
+    <h1>Please come back.</h1>
+    </div>
+    <footer>
+        <span class="footer">
+          <p id = "KeepPlayingText">Would you like to keep playing?</p>
+          <a href="index.html"><button id="yesOption" class="optBtn">yes</button></a>
+          <button id="noOption" class="optBtn"><a href="no.html">no</a></button>
+        </span>
+        </footer>
+
+    <script>
+        history.pushState(null, document.title, location.href);
+        window.addEventListener('popstate', function (event)
+        {
+        history.pushState(null, document.title, location.href);
+        });
+
+    </script>
+</body>
+</html>

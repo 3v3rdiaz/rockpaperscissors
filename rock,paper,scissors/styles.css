@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    color: white;
+    background-color: rgb(79, 112, 156);
+    color:rgb(245, 239, 231);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-top: -15px;
+    background-color: rgb(33, 53, 85);
+    width: 100%;
+    height: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+    color: rgb(245, 239, 231);
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(245, 239, 231);
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: baseline;
+    margin-left: -40px;
+    list-style-type: none;
+}
+
+.choiceBtn {
+    font-size: large;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.optBtn {
+    height: 35px;
+    width: 40px;
+    border-radius: 15px;
+    color: rgb(82, 82, 73);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+#computerText
+{
+    text-align: right;
+    
+}
+
+#resultText{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.noPage {
+    height: 100%;
+    justify-content: center;
+}
+
+/* beige: rgb(245, 239, 231), blue : rgb(216, 196, 182), Vintage : rgb(33, 53, 85),)
+
+*/
